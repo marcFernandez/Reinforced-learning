@@ -42,7 +42,14 @@ class QLearningAgent(ReinforcementAgent):
     def __init__(self, **args):
         "You can initialize Q-values here..."
         ReinforcementAgent.__init__(self, **args)
+        
+        # Al principi havia utilitzat un diccionari per emmagatzemar els QValues
+        # pero al final em vaig adonar que hi havia una clase Counter a util que
+        # resultava molt millor. (El codi comentat es la implementacio antiga i
+        # es pot ignorar)
+        
         # self.Q = {}
+        
         self.Q = util.Counter()
         "*** YOUR CODE HERE ***"
 

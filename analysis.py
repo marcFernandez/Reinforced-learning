@@ -20,52 +20,6 @@
 # value iteration.
 
 def question3():
-    answerEpsilon = 0
-    answerLearningRate = 1
-    return answerEpsilon, answerLearningRate
-    # If not possible, return 'NOT POSSIBLE'
-    
-def question3_1():
-    answerEpsilon = 0.1
-    answerLearningRate = 1
-    return answerEpsilon, answerLearningRate
-
-def question3_2():
-    answerEpsilon = 0.1
-    answerLearningRate = 0.9
-    return answerEpsilon, answerLearningRate
-
-def question3_3():
-    answerEpsilon = 0.2
-    answerLearningRate = 0.9
-    return answerEpsilon, answerLearningRate
-
-def question3_4():
-    answerEpsilon = 1
-    answerLearningRate = 0
-    return answerEpsilon, answerLearningRate
-
-def question3_5():
-    answerEpsilon = 1
-    answerLearningRate = 0.1
-    return answerEpsilon, answerLearningRate
-
-def question3_6():
-    answerEpsilon = 0.9
-    answerLearningRate = 0.1
-    return answerEpsilon, answerLearningRate
-
-def question3_7():
-    answerEpsilon = 0.9
-    answerLearningRate = 0.2
-    return answerEpsilon, answerLearningRate
-
-def question3_8():
-    answerEpsilon = 0.5
-    answerLearningRate = 0.5
-    return answerEpsilon, answerLearningRate
-
-def question3_9():
     return 'NOT POSSIBLE'
 
 if __name__ == '__main__':
